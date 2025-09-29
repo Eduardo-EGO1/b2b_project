@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+.container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: #fdfdfd;
+}
+
+.login-form {
+  border-radius: 16px;
+  box-shadow: 0 0 32px 18px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  gap: 36px;
+  padding: 32px;
+  background-color: #fcfcfc;
+}
+
+.login-form img {
+  background-color: #fcfcfc;
+  padding-top: 10px;
+}
+
+
+
+.input-field {
+  background-color: #fcfcfc;
+
+  width: 380px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 10px;
+}
+
+.input-field input {
+  width: 100%;
+  font-size: 1rem;
+  background-color: #f1f1f1dc;
+  border-radius: 8px;
+  border: none;
+  padding: 16px;
+}
+
+.input-field label {
+  background-color: #fcfcfc;
+
+  font-size: 1.1rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.login-form button {
+  width: 100%;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 8px;
+  border: none;
+  padding: 16px;
+  background-color: #02274F;
+  color: white;
+  cursor: pointer;
+}
